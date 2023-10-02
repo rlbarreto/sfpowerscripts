@@ -141,7 +141,7 @@ export default class ClientSourceTracking {
                     if(error.message.includes)
                     {
                     SFPLogger.log(
-                        ` sfpowerscripts is unable to sync the package ${artifact.name}${EOL}, 
+                        ` sfpowerscripts is unable to sync the package ${artifact.Name}${EOL}, 
                           as it not able to find the find equivalent git references`,
                         LoggerLevel.ERROR,
                         this.logger);
